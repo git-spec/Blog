@@ -1,0 +1,333 @@
+/**********************************/
+/********** BASIC STYLES **********/
+/**********************************/
+
+body {
+	margin: 0;
+	font-family: verdana;
+	font-size: 14px;
+	letter-spacing: 0.03rem;
+	box-sizing: border-box;
+}
+
+p.small { 
+	font-size: 0.7em; color: gray;
+}
+
+/******************************************/
+/********** HTML ELEMENTS STYLES **********/
+/******************************************/
+
+/********** COMMON FORMULAR STYLES **********/
+
+input, textarea, select {
+	border-radius: 5px;
+}
+fieldset {
+	margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid gray;	
+}
+fieldset fieldset {
+	width: 78%;
+	border: 1px solid gray;
+}
+select.day {
+	width: 75px;
+}
+select.month {
+	width: 100px;
+}
+select.year {
+	width: 75px;
+}
+
+fieldset select:first-of-type {
+	width: 100%;
+}
+
+input, textarea {
+	width: 100%;
+	margin: 5px 0;
+	padding: 5px;
+}
+textarea {
+	height: 120px;
+	font-family: verdana;
+}
+input[type="submit"] {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+input.short {
+	width: 125px;
+}
+
+/********** COLORS **********/
+
+.darkred {
+	color: rgb(153, 0, 51);
+}
+
+.darkgrey {
+	color: rgb(64, 60, 60);
+}
+
+.grey {
+	color: rgb(142, 140, 140);
+}
+
+/*********** HEADER ************/
+
+h1 {
+	font-size: 3rem;
+	margin-top: 6px;
+	}
+
+h4 {
+	margin: 0;
+}
+
+.tolock {
+	height: 40px;
+}
+
+/*********** MAIN *************/
+
+main {
+	padding: 172px 6% 0 6%;
+}
+
+.mainwidth {
+	width: 68%;
+	
+}
+
+/************ NAV *************/
+
+nav {
+	padding: 200px 6% 0 0;
+}
+
+/********** IMAGES ***********/
+
+article img {
+	margin: 0 0.8rem 0.6rem 0.8rem;
+	width: 35%
+}
+
+#blogImage {
+	width: auto;
+}
+
+/*********** TEXT ************/
+
+article {
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid gray;
+	text-align: justify;
+	line-height: 1.4;
+}
+
+article p:first-of-type {
+	margin-top: 0;
+}
+
+article p:last-of-type {
+	margin-bottom: 0;
+}
+
+/*********** LINKS ***********/
+
+a {
+	font-size: 1.17em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a h3 {
+	
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid gray;	
+	padding: 0.5em 0.4em 0.5rem 0.4em;
+	margin: 0 0 0.6em 0;
+}
+
+header a:last-child {
+	float: left;
+	margin-right: 2em;
+}
+
+/******** BLOG ENTRY *********/
+
+.pright {
+	padding-right: 3%;
+}
+
+.ptop {
+	padding-top: 1.8rem;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.width70 {
+	width: 70%;
+}
+
+.width62 {
+	width: 62%;
+}
+
+.width65 {
+	width: 65%;
+}
+
+/********** TABLES **********/
+table {
+	width: 100%; 
+	font-family: courier new; 
+	font-size: 0.9em; 
+}
+table, td { 
+	border: 1px solid teal; 
+	border-collapse: collapse;
+}
+th {
+	background-color: lightblue; 
+	padding: 10px;
+}
+td {
+	padding: 10px;  
+	text-align: center; 
+	color: teal;
+}
+td:last-child {
+	/* for future use */
+}
+tr:nth-child(even) {
+	background-color: #eee;
+}
+tr:hover {
+	background-color: #dee;
+}
+
+
+/*****************************/
+/********** CLASSES **********/
+/*****************************/
+
+/********** SPECIAL FORMULARS STYLES **********/
+
+header {
+	width: 88%;
+	height: 168px; 
+	background-color: white;
+	position: fixed;
+	margin: 0 6% 0 6%;
+	padding-top: 12px;
+	border-bottom: 1px solid gray;
+}
+
+header h3 {
+	display:inline-block;
+	margin: 0;
+}
+
+form.login {
+	width: 435px;
+}
+
+header input[type="submit"] {
+	margin-bottom: 0;
+}
+
+/********** FLOATING **********/
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.clearer {
+	clear: both;
+	width: 0px;
+	height: 0px;
+}
+
+/************ DISPLAY *************/
+.inline {
+	display: inline;
+}
+
+/********** AVATAR IMAGE **********/
+img.avatar {
+	width: 150px;
+	height: 150px;
+	margin: 15px 15px 15px 0;
+	border: 1px solid lightgray;
+	padding: 5px;
+}
+
+/********** USER MESSAGES STYLES **********/
+.error {
+	color: red;
+	font-size: 12px;
+}
+.success {
+	color: green;
+}
+.info {
+	color: darkorange;
+}
+.marker {
+	color: darkred;
+	font-size: 1.1em;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+/********** SPECIAL POPUP MESSAGES STYLES **********/
+popupBox {
+	border: 1px solid darkorange;
+	box-shadow: 20px 10px 25px 0px rgba(51,51,51,0.5);
+	border-radius: 10px;
+	background-color: rgba(230,230,230,0.9);
+	width: 50%;
+	margin: auto;	
+	text-align: center;
+	color: #666;
+	padding: 25px;
+	position: fixed;
+   margin: auto;
+	left: 25%;
+	top: 40%;
+}
+popupBox p {
+	color: black;
+}
+
+popupBox a {
+	border-radius: 5px;
+	padding: 5px 8px;
+	font-size: 1.2em;
+	text-decoration: none;
+	cursor: pointer;
+}
+popupBox a:hover, popupBox a.button:hover {
+	background-color: rgba(255,140,0,0.3);
+}
+popupBox a.button {
+	background-color: rgba(255,255,255,0.3);
+	border: 1px solid gray;
+	color: gray;
+}
+popupBox a.button:hover {
+	color: black;
+}
+
+
+
