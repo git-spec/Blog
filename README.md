@@ -8,4 +8,6 @@ After validation you are able to set a posting to an existing theme or you are c
 It is mainly a backend solution coded in PHP.
 
 ### Demo
-page: ingosogo.goip.de:5001
+page: ingosogo.goip.de:5002
+email: a@b.c
+password: 123456
