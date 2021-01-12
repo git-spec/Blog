@@ -19,7 +19,7 @@ if(DEBUG_DB)	echo "<p class='debugDb'><b>Line " . __LINE__ . ":</b> Versuche mit
 					try {
 						// wirft, falls fehlgeschlagen, eine Fehlermeldung "in den leeren Raum"
 						
-						// $pdo = new PDO("mysql:host=localhost; dbname=market; charset=utf8mb4", "root", "");
+						// $pdo = new PDO("mysql:host=localhost; dbname=blog; charset=utf8mb4", "phpmyadmin", "12345678");
 						$pdo = new PDO(DB_SYSTEM . ":host=" . DB_HOST . "; dbname=$dbname; charset=utf8mb4", DB_USER, DB_PWD);
 					
 					// falls eine Fehlermeldung geworfen wurde, wird sie hier aufgefangen					
